@@ -1,0 +1,138 @@
+.footer {
+    background: $blue;
+}
+
+.footer__bottom {
+    padding: 28px 0;
+    border-top: solid 1px rgba(255, 255, 255, 0.62);
+}
+
+.copy {
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    color: $white;
+}
+
+.footer__top {
+    padding-top: 82px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer__logo {
+    display: block;
+    width: 143px;
+
+    img {
+        width: 100%;
+        display: block;
+    }
+}
+
+.footer__text {
+    max-width: 394px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 14px;
+    color: $white;
+}
+
+.footer__nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer .menu-item-has-children {
+    margin-left: 58px;
+
+    a {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 130%;
+        color: $white;
+        display: inline-block;
+    }
+
+    &:first-child {
+        margin-left: 0;
+    }
+
+    .sub-menu {
+        padding-top: 16px;
+
+        li {
+            margin-bottom: 18px;
+
+            a {
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 130%;
+                color: $white;
+                transition: all ease 0.3s;
+
+                &:hover {
+                    color: $blue2;
+                    transition: all ease 0.3s;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .footer__top {
+        padding-top: 80px;
+        padding-bottom: 40px;
+        flex-wrap: wrap;
+    }
+
+    .footer__top-left {
+        width: 100%;
+        padding-bottom: 89px;
+    }
+
+    .footer__right {
+        width: 100%;
+    }
+
+    .footer__nav {
+        justify-content: space-between;
+    }
+
+    .footer .menu-item-has-children {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .footer__top {
+        padding-top: 60px;
+    }
+
+    .footer__nav {
+        flex-wrap: wrap;
+    }
+
+    .menu-item-has-children {
+        padding-bottom: 20px;
+    }
+
+    .footer__top-left {
+        padding-bottom: 50px;
+    }
+
+    .footer__top {
+        padding-bottom: 0;
+    }
+
+    .footer__bottom {}
+}
