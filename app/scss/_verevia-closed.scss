@@ -47,6 +47,10 @@
     line-height: normal;
     color: #fff;
     margin-bottom: 17px;
+
+    span {
+        border-bottom: solid 1px #459AFF;
+    }
 }
 
 .verenia-hero-closed-sec__subtitle {
@@ -94,6 +98,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    line-height: 1.4;
 
     b {
         font-style: italic;
@@ -173,7 +178,7 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 1.4;
     color: #fff;
     max-width: 455px;
     margin-top: -36px;
@@ -232,6 +237,41 @@
     text-align: center;
 }
 
+@media only screen and (max-width: 1800px) {
+    .verenia-hero-closed-sec {
+        .home-front-sec__img-bg {
+            left: 650px;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 1700px) {
+    .verenia-hero-closed-sec {
+        .home-front-sec__img-bg {
+            left: 600px;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 1600px) {
+    .verenia-hero-closed-sec {
+        .home-front-sec__img-bg {
+            left: 500px;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 1500px) {
+    .verenia-hero-closed-sec {
+        .home-front-sec__img-bg {
+            left: 450px;
+        }
+    }
+
+}
 
 @media only screen and (max-width: 1200px) {
     .verenia-hero-closed-sec .home-front-sec__img-bg {
@@ -291,14 +331,14 @@
     }
 
     .verenia-hero-closed-sec .home-front-sec__img-bg {
-        width: 750px;
-        top: 272px;
+        width: 621px;
+        top: 386px;
         left: -50px;
 
     }
 
     .verenia-hero-closed-sec {
-        height: 670px;
+        height: 780px;
     }
 
     .verenia-history-closed-sec__row {
